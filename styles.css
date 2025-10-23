@@ -292,68 +292,10 @@ a {
   padding: 48px 0;
 }
 
-.footer__content {
-  display: grid;
-  gap: 24px;
-}
-
-.footer__heading h3 {
+.footer__content p {
   margin: 0;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-
-.footer__info {
-  display: grid;
-  gap: 16px;
-}
-
-.footer__name {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.footer__list {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 12px;
-}
-
-.footer__item {
-  display: grid;
-  gap: 4px;
-}
-
-.footer__item dt {
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.footer__item dd {
-  margin: 0;
+  text-align: center;
   font-size: 18px;
-  font-weight: 500;
-}
-
-.footer__item a {
-  color: #ffd86b;
-  text-decoration: none;
-}
-
-.footer__item a:hover,
-.footer__item a:focus {
-  text-decoration: underline;
-}
-
-.footer__note {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.6;
 }
 
 .toast {
